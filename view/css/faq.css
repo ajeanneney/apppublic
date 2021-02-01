@@ -1,0 +1,155 @@
+.cadre_question {
+    background-color: white;
+    border-radius: 20px;
+    padding: 1px 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    border: solid black 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+
+}
+
+.cadre_reponse {
+    margin: 5px 0px 10px 50px;
+    border: solid darkgray 2px;
+    background-color: white;
+    border-radius: 20px;
+
+
+}
+
+.question {
+    text-align: center;
+    padding-left: 10px;
+}
+
+.reponse {
+    font-style: normal;
+    margin: 10px 20px 10px 20px;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding-left: 20px;
+    padding-top: 5%;
+
+}
+
+#faq {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.boutonsbloc {
+    width: 50%;
+
+
+}
+
+.bouton {
+    background-color: white;
+    border-radius: 20px;
+    width: 75%;
+    border: solid grey 2px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.padding_bouton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+
+}
+
+div>.bouton_classique {
+    margin: auto;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    width: 50%;
+
+
+}
+
+.cadre_question h2,
+.cadre_reponse h3 {
+    display: block
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.deroulement {
+    width: 5%;
+    height: 5%;
+
+}
+
+li{
+    list-style: none;
+}
+
+#bar_recherche{
+    margin-right: 15%;
+    margin-left: 15%;
+    width: 70%;
+    font-size: 18px;
+    padding: 11px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    outline: none;
+}
+
+#bar_recherche:focus{
+
+    border: 2px solid black;
+
+
+
+}
+
+#bar_recherche:focus::placeholder {
+    color: black;
+
+
+}
+
+@media (max-width: 750px) {
+    .container{
+        flex-direction: column ;
+    }
+
+    .cadre_question{
+        width: 100%;
+
+    }
+
+    .boutonsbloc {
+        width: 100%;
+
+    }
+
+
+
+
+}

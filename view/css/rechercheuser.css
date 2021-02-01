@@ -1,0 +1,86 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 5%;
+
+
+}
+
+#liste_de_barre{
+    width: 70%;
+
+}
+
+.nom,
+.prénom{
+    padding-right: 10%;
+}
+
+.suppresion a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+
+.espace_contact{
+    width: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid grey;
+    margin: 0 5% 0 0 ;
+}
+
+.padding_bouton{
+    padding: 7% 0 7% 0;
+}
+
+#bar_recherche{
+
+    width: 90%;
+    font-size: 18px;
+    padding: 11px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    outline: none;
+
+}
+
+#bar_recherche:focus{
+
+    border: 2px solid black;
+
+}
+
+#bar_recherche:focus::placeholder {
+    color: black;
+
+}
+
+div>.bouton_classique{
+    padding: 10px 15px 10px 15px;
+    margin: 0;
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #liste_de_barre,.espace_contact{
+        width: 80%;
+        margin: 0;
+
+    }
+
+
+
+
+
+}

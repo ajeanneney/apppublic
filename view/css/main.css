@@ -1,0 +1,313 @@
+h1 {
+    text-align: center;
+    color: black;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #d4fc79 0%, #96e6a1 100%);
+    font-family: Verdana;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+#logoheader {
+    width: 150px;
+    height: auto;
+    padding-left: 5%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header>h1 {
+
+    flex-grow: 2;
+    text-align: center;
+    padding-left: -5%;
+
+}
+
+header>.block_center {
+    width: 150px;
+    height: auto;
+}
+
+form>div {
+    position: center;
+    text-align: center;
+    width: 50%;
+    margin: 20px;
+}
+
+.paragraphe {
+    position: center;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+div>.bouton_classique {
+
+    background-color: #4C79A7;
+    border-radius: 20px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: black;
+    position: center;
+    margin: 33% 33%;
+    width: 33%;
+    padding: 1% 10%;
+    text-decoration: none;
+
+
+}
+
+div>.bouton_classique:hover {
+    background-color: #4f87c2;
+
+}
+
+.barre_patients {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin: 5% 5%;
+    padding: 1% 5%;
+    border-radius: 20px;
+    border: 1px grey solid;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.numéro,
+.age,
+.nom,
+.prénom,
+.suppresion{
+
+    border-right: grey 2px solid;
+    padding-right: 8%;
+
+
+
+
+}
+
+.indicateur {
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    background: green;
+}
+
+.champ {
+    border: none;
+    border-radius: 10px;
+    line-height: 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 30px;
+    padding-left: 8px;
+    outline: none;
+
+}
+
+.champ::placeholder {
+    color: Grey;
+
+
+}
+
+.champ:focus {
+    border: solid black 2px;
+}
+
+.titre_champ {
+    color: Black;
+
+
+}
+
+/* footer */
+
+footer {
+    padding-top: 10px;
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: grey;
+    color: black;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer>div {
+    width: 33%;
+}
+
+footer>div>nav {
+    text-align: center;
+}
+
+footer>div>nav>a,
+footer>div>nav>p>a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-style: bold;
+    vertical-align: middle;
+
+}
+
+footer>div>nav :hover {
+    color: white;
+}
+
+footer>div>nav>ul>li {
+    text-align: left;
+    list-style: none;
+}
+
+/* Menu */
+.menu {
+    margin-top: 20px;
+    width: 90%;
+    background-color: #00630C;
+    position: center;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.menu > ul {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.menu > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.menu > ul > li {
+    float: left;
+    position: relative;
+}
+
+.menu > ul > li > a{
+    padding: 20px 30px;
+    color: white;
+}
+
+.menu >ul > li:hover a{
+    padding: 20px 30px;
+}
+
+
+.menu li {
+    border-top: 5px solid #00630C;
+    list-style-type: none;
+}
+
+.subcompte {
+    display: none;
+
+}
+
+.menu a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu a{
+    display: inline-block;
+
+}
+
+.menu li:hover .subcompte{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: auto;
+}
+
+.subcompte li{
+    border-bottom: 1px solid #CCC;
+    border-top: none;
+
+}
+
+.subcompte li a {
+    font-size: 13px;
+    color: white;
+    width: auto;
+    font-weight: bold;
+
+
+}
+
+.faq:hover, .compte:hover, .menu_bilan:hover,.message:hover{
+    border-top: 5px solid #FFFF;
+    background-color: RGBa(255,255,255, 0.15);
+
+}
+
+
+
+.compte .subcompte {
+    background-color: #00630C;
+    width: 100%;
+
+}
+
+.subcompte li:hover a{
+    font-weight: bold;
+    border: none;
+}
+
+.compte .subcompte li:hover {
+    background-color: RGBa(255,255,255, 0.15);
+}
+
+@media (max-width: 850px) {
+    .menu{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+}
+
+.confirmation{
+    color: Black;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+
+}

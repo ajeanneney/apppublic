@@ -1,0 +1,124 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.espace_bilan,.espace_contact{
+
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 5% 5% 10%;
+    padding-bottom: 3%;
+    width: 25%;
+    text-align: center;
+
+
+}
+
+.bilan{
+    margin: 5%;
+}
+
+.formulaire_bilan{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid grey;
+    max-width: 50;
+    margin: 5% 0 0 0;
+    padding: 5%;
+}
+
+
+.bouton_submit {
+    margin: 5%;
+    font-size: 25px;
+    height: 50px;
+    background-color: #4C79A7;
+    transition: 0.4s;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    vertical-align: middle;
+    border-radius: 10px;
+
+
+}
+
+
+
+.bouton_submit:hover {
+    background-color: white;
+    border: solid #4C79A7 3px;
+    color: #4C79A7;
+    font-style: bold;
+
+}
+
+textarea{
+    font-size: 25px;
+    font-family: Verdana;
+
+}
+
+div >.bouton_classique {
+
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    width: 50%;
+    border: 5px solid;
+
+}
+
+
+
+.espace_contact{
+    padding: 5% 0 5% 0;
+
+}
+
+#chartContainer0,
+#chartContainer1,
+#chartContainer2{
+    height: 400px;
+    width: 90%;
+    margin: 5%;
+    border: 2px solid grey;
+
+
+
+}
+
+.graph {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+@media (max-width: 850px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .espace_bilan,.espace_contact,.formulaire_bilan{
+        margin: 5% 0 5% 0;
+        width: 80%;
+    }
+
+
+
+
+
+
+}

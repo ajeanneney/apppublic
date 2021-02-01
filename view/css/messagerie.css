@@ -1,0 +1,83 @@
+.messagerie{
+
+  overflow:hidden;
+}
+
+.boite_message {
+
+  background-color: white;
+  margin: 0;
+  list-style: none;
+  
+  position : center;
+  border: 1px ;
+  display: flex;
+  border-radius: 10px; 
+ 
+}
+
+tbody {
+
+  border-radius:10px;
+  background-color:white;
+
+}
+
+td, th {
+  border: 1px solid white;
+  background-color : white;
+  text-align: left;
+  padding: 2px 30px;
+}
+
+.messageArea{
+
+  padding: 2px 150px;
+}
+
+.deleteButton
+{
+  border: 0;
+  line-height: 2.5;
+  padding: 5 5px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  box-shadow: inset 0px -2px 0px rgba(114, 0, 0, 0.6);
+}
+
+.deleteButton:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.answerButton
+{
+  border: 0;
+  line-height: 2.5;
+  padding: 5 5px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  background-color: rgb(1, 139, 8);
+  
+  box-shadow: inset 0px -2px 0px rgba(0, 82, 4, 0.6);
+}
+
+.answerButton:hover {
+  background-color:rgb(0, 180, 9);
+}
+
+
+.table_block {
+
+  padding : 5% 25%
+}
+
+.center{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}

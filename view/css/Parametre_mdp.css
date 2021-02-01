@@ -1,0 +1,131 @@
+.bouton_submit {
+    font-size: 25px;
+    height: 50px;
+    background-color: #4C79A7;
+    transition: 0.4s;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    vertical-align: middle;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+}
+
+
+
+.bouton_submit:hover {
+    background-color: white;
+    border: solid #4C79A7 3px;
+    color: #4C79A7;
+    font-style: bold;
+
+}
+
+.formulaire {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+.titre_champ{
+    font-size: 25px;
+}
+
+.champ{
+    width: 70%;
+}
+
+
+div >.bouton_classique {
+
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+
+}
+
+.margin{
+    margin:  0 0 30px 70%;
+
+
+}
+
+/* Checkbox */
+#label_checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+#label_checkbox:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+#label_checkbox input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+#label_checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+#label_checkbox .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#label_checkbox{
+    font-size: 15px;
+}
+
+.formulaire_check{
+    position: center;
+    margin-left: 28%;
+    margin-right: 22%;
+    width: 50%;
+}
+
+#msg{
+    height: 20px;
+}
+
+form{
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
